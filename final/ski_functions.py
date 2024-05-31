@@ -143,7 +143,7 @@ def get_map(gates1, gates2):
     w, h = 960, 960
     size = str(int(w//scale)) + "x" + str(int(h//scale))
     maptype = "satellite"
-    key = "AIzaSyCN5GE3tdQkOkl1TJFNseES8JTaf-5qT4c"
+    key = ""
     
     # define url using variables and request maps API
     full_course_url = ("https://maps.googleapis.com/maps/api/staticmap?", "center=" + \
