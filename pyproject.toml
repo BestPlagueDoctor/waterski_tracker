@@ -1,0 +1,31 @@
+[project]
+name = "skitracker"
+version = "0.1.0"
+description = "ECE 445 Senior Design Project SkiTracker"
+authors = [
+    {name = "Sam Knight", email = "sknight5@illinois.edu"},
+]
+dependencies = [
+    "pillow>=10.2.0",
+    "matplotlib>=3.8.3",
+    "scipy>=1.12.0",
+    "requests>=2.31.0",
+    "numpy>=1.26.4",
+    "av==10.0.0",
+    "tkvideoplayer>=2.3",
+    "opencv-python>=4.9.0.80",
+    "tdqm>=0.0.1",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+[build-system]
+requires = ["pdm-backend", "setuptools", "wheel", "cython=0.29.0" ]
+build-backend = "pdm.backend"
+
+
